@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
-
+//Binding data with xml
 public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder>{
 
     private List<ModelClass> userList;

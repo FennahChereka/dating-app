@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--setting the carde elements-->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -52,17 +53,16 @@
             android:layout_marginLeft="75dp"
 
             />
-
+<!-- put "assignent" text below first heading-->
         <TextView
+             android:id="@+id/textView3"
             android:layout_width="140dp"
             android:layout_height="30dp"
-            android:text="Assignment"
-            android:textSize="15sp"
-            android:layout_toRightOf="@+id/imageview"
-            android:id = "@+id/textView3"
             android:layout_below="@id/textView"
             android:layout_marginLeft="20dp"
-            />
+            android:layout_toRightOf="@+id/imageview"
+            android:text="Assignment"
+            android:textSize="15sp" />
     </RelativeLayout>
 
 

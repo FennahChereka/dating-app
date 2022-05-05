@@ -1,5 +1,6 @@
 package com.example.cardproject;
 
+
 public class ModelClass {
     private int imageView;
     private String textView1;

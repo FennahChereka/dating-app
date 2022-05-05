@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
+    //intializing values
     RecyclerView recyclerView;
     LinearLayoutManager layoutManager;
     List<ModelClass> userList;
@@ -27,15 +27,18 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //data to bind with xml
     public void initData(){
         userList = new ArrayList<>();
 
-        userList.add(new ModelClass(R.drawable.safe, "Tefo", "10 45am", "assignment"));
-        userList.add(new ModelClass(R.drawable.safe, "Rethabile", "12 45am", "work"));
+        userList.add(new ModelClass(R.drawable.safe, "Fennah", "10 45am", "Dumelang"));
+        userList.add(new ModelClass(R.drawable.safe, "Rethabile", "12 45am", "o ya tirong ?"));
 
     }
 
+    //binding xml with recyclervew
     public void initRecyclerView(){
+        //fetch recyclerview list by id from xml
         recyclerView = findViewById(R.id.recyclerView1);
         layoutManager = new LinearLayoutManager(this);
         layoutManager.setOrientation(RecyclerView.VERTICAL);
